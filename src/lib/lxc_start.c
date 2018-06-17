@@ -163,7 +163,7 @@ Options :\n\
 	.pidfile = NULL,
 };
 
-int main(int argc, char *argv[])
+extern int lxc_start_main(int argc, char *argv[])
 {
 	const char *lxcpath;
 	char *const *args;
